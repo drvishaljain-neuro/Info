@@ -185,4 +185,35 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+/* Research tab – scrollable PDF-like viewer */
+#research-pages h2 {
+    margin-bottom: 0.75rem;
+}
+
+#research-pages > p {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    color: #4b5563;
+}
+
+.pdf-images {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    height: 80vh;              /* viewport-relative height for scroll area */
+    overflow-y: auto;          /* vertical scroll */
+    background: #fafafa;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.pdf-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    background: white;
+    border-radius: 4px;
+}
 
