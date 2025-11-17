@@ -75,3 +75,16 @@ footer {
     font-size: 0.85rem;
     color: #6b7280;
 }
+#research-pages h2 {
+    margin-bottom: 1.5rem;
+}
+
+.pdf-images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
