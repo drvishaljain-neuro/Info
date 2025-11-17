@@ -47,27 +47,53 @@ section {
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
 }
-h2, h3 {
+h2 {
+    margin-top: 0;
     color: #111827;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 0.3rem;
+    font-size: 1.3rem;
 }
-#research-statement p {
-    text-align: justify;
+.tagline {
+    font-style: italic;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    opacity: 0.9;
 }
-.figure-block {
-    margin: 1.5rem 0;
+.mentees-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+.mentee-card {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.12);
     text-align: center;
 }
-.figure-block img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
-    box-shadow: 0 2px 6px rgba(15, 23, 42, 0.18);
+.mentee-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+    border: 2px solid #e5e7eb;
 }
-.figure-caption {
+.mentee-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+.mentee-role {
     font-size: 0.9rem;
-    color: #4b5563;
-    margin-top: 0.4rem;
     font-style: italic;
+    color: #555;
+    margin-bottom: 0.6rem;
+}
+.mentee-desc {
+    font-size: 0.9rem;
+    color: #444;
 }
 footer {
     text-align: center;
@@ -75,16 +101,3 @@ footer {
     font-size: 0.85rem;
     color: #6b7280;
 }
-#research-pages h2 {
-    margin-bottom: 1.5rem;
-}
-
-.pdf-images img {
-    width: 50%;
-    height: auto;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    display: block;
-}
-
