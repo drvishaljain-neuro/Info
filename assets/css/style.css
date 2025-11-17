@@ -172,14 +172,4 @@ footer {
     box-shadow: 0 4px 10px rgba(15, 23, 42, 0.18);
 }
     
-@media (max-width: 900px) {
-    .hero {
-        flex-direction: column-reverse !important;
-    }
-    .hero-image,
-    .hero-text {
-        max-width: 100%;
-        flex: 1 1 100%;
-    }
-}
 
