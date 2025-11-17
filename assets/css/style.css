@@ -152,4 +152,9 @@ footer {
         margin-bottom: 1rem;
     }
 }
+.hero-text {
+    flex: 1 1 55%;
+    text-align: justify !important;
+}
+
 
