@@ -102,12 +102,13 @@ footer {
     color: #6b7280;
 }
 .hero {
-    display: flex;
+    display: flex !important;
+    flex-direction: row !important;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    width: 100%;
     margin-bottom: 2rem;
-    flex-wrap: wrap;
 }
 
 .hero-text {
@@ -128,13 +129,14 @@ footer {
 }
 
 .hero-image {
-    flex: 0 1 320px;
+    flex: 0 0 40%;
+    max-width: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .hero-image img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(15, 23, 42, 0.18);
