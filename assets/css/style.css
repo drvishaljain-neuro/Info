@@ -177,11 +177,12 @@ footer {
 }
 
 .pdf-images img {
-    width: 40%;
+    width: 100%;
+    max-width: 900px;      /* Limits image width */
     height: auto;
-    margin-bottom: 2rem;
+    display: block;
+    margin: 0 auto 2rem;   /* Centers the image */
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    display: block;
 }
 
