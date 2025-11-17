@@ -147,6 +147,7 @@ footer {
         flex-direction: column-reverse;
         align-items: flex-start;
     }
+}
 
 .hero-image {
     width: 100%;
@@ -175,7 +176,6 @@ footer {
     .hero {
         flex-direction: column-reverse !important;
     }
-
     .hero-image,
     .hero-text {
         max-width: 100%;
