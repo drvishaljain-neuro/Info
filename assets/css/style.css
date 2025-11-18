@@ -333,6 +333,48 @@ footer {
     color: #374151;
 }
 
+/* Lightbox overlay for Fun With Me gallery */
+
+#lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 9999;
+    padding: 1rem;
+}
+
+#lightbox-overlay.show {
+    display: flex;
+}
+
+#lightbox-image {
+    max-width: 90vw;
+    max-height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.6);
+    margin-bottom: 0.75rem;
+}
+
+#lightbox-caption {
+    color: #f9fafb;
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 80vw;
+}
+
+#lightbox-close {
+    position: fixed;
+    top: 1.2rem;
+    right: 1.5rem;
+    font-size: 2rem;
+    color: #f9fafb;
+    cursor: pointer;
+    line-height: 1;
+}
 
 
 
