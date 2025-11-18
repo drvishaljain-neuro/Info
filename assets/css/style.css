@@ -261,5 +261,26 @@ footer {
     padding: 0.15rem 0.55rem;
     margin-right: 0.25rem;
 }
+.project-image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 133.33%;   /* 4/3 aspect ratio = 1.333 → 133.33% */
+    position: relative;
+    overflow: hidden;
+    background: #e5e7eb;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         /* ensures image fills box perfectly */
+    object-position: center;   /* center crop */
+    display: block;
+}
+
 
 
