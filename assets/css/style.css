@@ -281,6 +281,58 @@ footer {
     object-position: center;   /* center crop */
     display: block;
 }
+/* -------- Fun With Me Gallery Styles -------- */
+
+#fun-gallery h2 {
+    margin-bottom: 0.5rem;
+}
+
+.fun-intro {
+    font-size: 0.95rem;
+    color: #4b5563;
+    margin-bottom: 1.25rem;
+}
+
+/* Masonry-style responsive grid */
+.masonry-gallery {
+    column-count: 3;
+    column-gap: 1rem;
+}
+
+@media (max-width: 900px) {
+    .masonry-gallery {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .masonry-gallery {
+        column-count: 1;
+    }
+}
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+    background: #ffffff;
+    padding: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+.gallery-item figcaption {
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    color: #374151;
+}
+
 
 
 
