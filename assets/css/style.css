@@ -375,6 +375,12 @@ footer {
     cursor: pointer;
     line-height: 1;
 }
+/* Global text justification */
+body, p, li, figcaption, .project-content p, .fun-intro, .testimonials-intro {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 
 
 
