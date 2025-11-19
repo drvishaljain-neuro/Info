@@ -426,4 +426,12 @@ header, header p, header h1 {
     text-justify: inter-word;
 }
 
+/* Ensure mentee descriptions are justified */
+.mentee-card p,
+.mentee-description,
+.mentee-bio,
+#mentees-section p {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
 
