@@ -381,6 +381,10 @@ body, p, li, figcaption, .project-content p, .fun-intro, .testimonials-intro {
     text-justify: inter-word;
 }
 
+/* Keep header text centered */
+header, header p, header h1 {
+    text-align: center !important;
+}
 
 
 
