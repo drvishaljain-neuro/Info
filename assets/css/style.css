@@ -420,5 +420,10 @@ header, header p, header h1 {
 .btn-primary:hover {
     background: #111827;
 }
+/* Justify mentee descriptions properly */
+.mentee-desc {
+    text-align: justify !important;
+    text-justify: inter-word;
+}
 
 
