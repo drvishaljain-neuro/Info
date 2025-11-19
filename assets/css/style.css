@@ -386,5 +386,39 @@ header, header p, header h1 {
     text-align: center !important;
 }
 
+.experience-submit {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-top: 2rem;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+
+.experience-submit h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.experience-submit p {
+    margin-bottom: 0.9rem;
+    font-size: 0.9rem;
+    color: #4b5563;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.55rem 1.2rem;
+    font-size: 0.9rem;
+    border-radius: 999px;
+    background: #1f2937;
+    color: #f9fafb;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.btn-primary:hover {
+    background: #111827;
+}
 
 
