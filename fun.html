@@ -161,3 +161,24 @@
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', function () {
+    const images   = document.querySelectorAll('.fun-image');
+    const overlay  = document.getElementById('lightbox-overlay');
+    const fullImg  = document.getElementById('lightbox-image');
+    const caption  = document.getElementById('lightbox-caption');
+    const closeBtn = document.getElementById('lightbox-close');
+
+    // Open lightbox when image clicked
+    images.forEach(img => {
+        img.addEventListener('click', function () {
+            fullImg.src = this.src;
+            fullImg.alt = this.alt || '';
+            caption.textContent = this.getAttribute('data-caption') || this.alt || '';
+            overlay.classList.add('show');
+            document.body.style.overflow = 'hidden';  // prevent background scroll
+        });
+    });
+
+    // Close on X button
+    closeBtn.addEventListener('click', function () {
+        overlay.classList.remove('show');
