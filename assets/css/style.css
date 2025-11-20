@@ -434,48 +434,49 @@ header, header p, header h1 {
     text-align: justify !important;
     text-justify: inter-word;
 }
-/* Contact Section */
+
+/* CONTACT ICON GRID */
 #contact-section {
     text-align: center;
-}
-
-.contact-intro {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-    text-align: center;
+    margin-top: 2rem;
 }
 
 .contact-icons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2.5rem;
-    margin-top: 1.5rem;
+    gap: 3rem;
+    margin-top: 2.5rem;
 }
 
-.contact-icon {
+.contact-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    width: 140px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-card img {
+    width: 80px;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.contact-card span {
+    margin-top: 0.6rem;
+    font-size: 0.95rem;
     color: #1f2937;
-    width: 120px;
+    text-align: center;
 }
 
-.contact-icon i {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-    color: #1f2937;
-    transition: transform 0.2s ease, color 0.2s ease;
+.contact-card:hover img {
+    transform: scale(1.15);
 }
 
-.contact-icon span {
-    font-size: 0.9rem;
-    margin-top: 0.25rem;
-}
-
-.contact-icon:hover i {
-    transform: scale(1.2);
-    color: #0056b3;
+.contact-card:hover {
+    transform: translateY(-5px);
 }
 
