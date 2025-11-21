@@ -501,7 +501,7 @@ header, header p, header h1 {
 }
 
 .startup-logo img {
-    max-width: 480px;   /* increase from 220px */
+    max-width: 600px;   /* increase from 220px */
     height: auto;
 }
 
