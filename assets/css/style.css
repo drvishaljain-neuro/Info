@@ -501,11 +501,10 @@ header, header p, header h1 {
 }
 
 .startup-logo img {
-    max-width: 220px;
+    max-width: 300px;   /* increase from 220px */
     height: auto;
-    display: block;
-    margin-bottom: 0.75rem;
 }
+
 
 .startup-hero-left h2 {
     margin: 0.25rem 0 0.5rem;
