@@ -480,3 +480,123 @@ header, header p, header h1 {
     transform: translateY(-5px);
 }
 
+/* --- Startup / Synapse Symphony hero --- */
+
+.startup-hero {
+    width: 100%;
+    background: radial-gradient(circle at top left, #1f2937, #020617);
+    color: #f9fafb;
+    padding: 2.5rem 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.startup-hero-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.startup-logo img {
+    max-width: 220px;
+    height: auto;
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.startup-hero-left h2 {
+    margin: 0.25rem 0 0.5rem;
+    font-size: 1.9rem;
+}
+
+.startup-hero-tagline {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    max-width: 30rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.startup-hero-cta {
+    display: inline-block;
+    padding: 0.55rem 1.3rem;
+    border-radius: 999px;
+    background: #f97316;
+    color: #111827;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 0.3rem;
+}
+
+.startup-hero-cta:hover {
+    background: #fb923c;
+}
+
+.startup-hero-right p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Responsive hero layout */
+@media (max-width: 800px) {
+    .startup-hero-inner {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .startup-hero {
+        padding: 2rem 1.25rem;
+    }
+
+    .startup-hero-left h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/* --- Our Vision & Impact box --- */
+
+.startup-vision {
+    margin-bottom: 2.5rem;
+}
+
+.vision-card {
+    background: #f9fafb;
+    border-radius: 10px;
+    padding: 1.5rem 1.7rem;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.08);
+}
+
+.vision-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.vision-card p {
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.vision-card ul {
+    padding-left: 1.2rem;
+    margin: 0;
+}
+
+.vision-card li {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Startup intro text spacing */
+.startup-intro {
+    margin-bottom: 1.25rem;
+    font-size: 0.95rem;
+}
