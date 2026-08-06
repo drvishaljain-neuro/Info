@@ -61,39 +61,49 @@ h2 {
     opacity: 0.9;
 }
 .mentees-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
+
 .mentee-card {
-    background: #ffffff;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.12);
-    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(15,23,42,0.12);
 }
+
 .mentee-card img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 0.8rem;
-    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    margin-right: 25px;
+    flex-shrink: 0;
 }
+
+.mentee-info {
+    flex: 1;
+    text-align: left;
+}
+
 .mentee-name {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.4rem;
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
+
 .mentee-role {
-    font-size: 0.9rem;
+    color: #666;
     font-style: italic;
-    color: #555;
-    margin-bottom: 0.6rem;
+    margin-bottom: 15px;
 }
+
 .mentee-desc {
-    font-size: 0.9rem;
-    color: #444;
+    margin-bottom: 8px;
+    text-align: left;
 }
 footer {
     text-align: center;
