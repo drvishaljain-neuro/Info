@@ -103,7 +103,9 @@ h2 {
 
 .mentee-desc {
     margin-bottom: 8px;
-    text-align: left;
+    text-align: justify !important;
+    text-justify: inter-word;
+    line-height: 1.4;
 }
 footer {
     text-align: center;
@@ -429,11 +431,6 @@ header, header p, header h1 {
 
 .btn-primary:hover {
     background: #111827;
-}
-/* Justify mentee descriptions properly */
-.mentee-desc {
-    text-align: justify !important;
-    text-justify: inter-word;
 }
 
 /* Ensure mentee descriptions are justified */
