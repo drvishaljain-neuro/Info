@@ -68,7 +68,7 @@ h2 {
 
 .mentee-card {
     display: flex;
-    align-items: flex-start;
+    align-items: center; /* changed from flex-start to center to vertically center images */
     background: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -606,3 +606,4 @@ header, header p, header h1 {
     margin-bottom: 1.25rem;
     font-size: 0.95rem;
 }
+
